@@ -199,7 +199,7 @@ Your project has been successfully initialized and connected to the cloud!
 #### User Analytics Backend
 
 - The `User Analytics` feature is powered by `Amazon Pinpoint`
-- We will add user authentication to our project by running the command `amplify analytics add` from terminal
+- We will add user analytics to our project by running the command `amplify analytics add` from terminal
 - Give a resource name of your choice (Enter key for default) and select `y` when prompted `Do you want to allow guests and unauthenticated users to send analytics events?`
 - You should see a message like `Successfully added auth resource locally. Successfully added resource flappyswift locally`
 - Run `amplify push` and enter `y` when asked for confirmation
