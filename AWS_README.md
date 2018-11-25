@@ -147,6 +147,9 @@ Your project has been successfully initialized and connected to the cloud!
     Step 1: In `MainViewController.swift`, add the following extension to `MainViewController` class:
 
     ```swift
+    // Add AWSMobileClient import statement on the top
+    import AWSMobileClient
+    
     // Mark: AWS Sign In 
 
     extension MainViewController {
