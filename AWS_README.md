@@ -3,8 +3,9 @@
 ## Pre-requisites
 
 - Xcode 9.2+
-- Node.js
-- amplify-cli
+- [Cocoapods](https://github.com/CocoaPods/CocoaPods)
+- [Node.js](https://github.com/nodejs/node)
+- [amplify-cli](https://github.com/aws-amplify/amplify-cli)
 
 ## Setup the project
 
@@ -42,7 +43,7 @@ Your project has been successfully initialized and connected to the cloud!
 ```
 ### Setup Application Dependencies
 
-- Run `pod init` in the root directory of the App; this is to use `Cocoapods` as our dependency manager to install AWS iOS SDKs.
+- Run `pod init` in the root directory of the App; this is to use `Cocoapods` as our dependency manager to install AWS iOS SDKs. If you do not have cocoapods installed, you can do that by running `sudo gem install cocoapods`.
 - Update the `Podfile` contents to following:
     ```ruby
     # Uncomment the next line to define a global platform for your project
